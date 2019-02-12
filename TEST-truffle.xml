@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.899" tests="37" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-02-12T01:37:54" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Contract: Item" timestamp="2019-02-12T01:37:54" tests="0" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/Item.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="constructor" timestamp="2019-02-12T01:37:54" tests="9" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/Item.js" failures="0" time="0.46299999999999997">
+    <testcase name="Contract: Item constructor should have a manufacturer address" time="0.055" classname="should have a manufacturer address">
+    </testcase>
+    <testcase name="Contract: Item constructor should have an itemId" time="0.068" classname="should have an itemId">
+    </testcase>
+    <testcase name="Contract: Item constructor should have a make" time="0.055" classname="should have a make">
+    </testcase>
+    <testcase name="Contract: Item constructor should have a model" time="0.05" classname="should have a model">
+    </testcase>
+    <testcase name="Contract: Item constructor should have a color" time="0.064" classname="should have a color">
+    </testcase>
+    <testcase name="Contract: Item constructor should have a manufactureDate" time="0.069" classname="should have a manufactureDate">
+    </testcase>
+    <testcase name="Contract: Item constructor should have a factoryId" time="0.054" classname="should have a factoryId">
+    </testcase>
+    <testcase name="Contract: Item constructor should be created in the Active state" time="0.039" classname="should be created in the Active state">
+    </testcase>
+    <testcase name="Contract: Item constructor should emit a WorkbenchContractCreated event" time="0.009" classname="should emit a WorkbenchContractCreated event">
+    </testcase>
+  </testsuite>
+  <testsuite name="RegisterItem" timestamp="2019-02-12T01:37:55" tests="4" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/Item.js" failures="0" time="2.732">
+    <testcase name="Contract: Item RegisterItem should register itself successfully" time="0.837" classname="should register itself successfully">
+    </testcase>
+    <testcase name="Contract: Item RegisterItem should emit a WorkbenchContractUpdated event" time="0.528" classname="should emit a WorkbenchContractUpdated event">
+    </testcase>
+    <testcase name="Contract: Item RegisterItem should not change Item state" time="0.764" classname="should not change Item state">
+    </testcase>
+    <testcase name="Contract: Item RegisterItem should revert if item is retired" time="0.603" classname="should revert if item is retired">
+    </testcase>
+  </testsuite>
+  <testsuite name="Retire" timestamp="2019-02-12T01:37:58" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/Item.js" failures="0" time="0.345">
+    <testcase name="Contract: Item Retire should change state to Retired" time="0.249" classname="should change state to Retired">
+    </testcase>
+    <testcase name="Contract: Item Retire should emit a WorkbenchContractUpdated event" time="0.096" classname="should emit a WorkbenchContractUpdated event">
+    </testcase>
+  </testsuite>
+  <testsuite name="Contract: BasicItemRegistry" timestamp="2019-02-12T01:37:59" tests="0" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="constructor" timestamp="2019-02-12T01:38:00" tests="4" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.17099999999999999">
+    <testcase name="Contract: BasicItemRegistry constructor should be nameable" time="0.058" classname="should be nameable">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry constructor should be describable" time="0.054" classname="should be describable">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry constructor should start off in the Created state" time="0.043" classname="should start off in the Created state">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry constructor should emit a WorkbenchContractCreated event" time="0.016" classname="should emit a WorkbenchContractCreated event">
+    </testcase>
+  </testsuite>
+  <testsuite name="OpenRegistry" timestamp="2019-02-12T01:38:00" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.083">
+    <testcase name="Contract: BasicItemRegistry OpenRegistry should set an open state" time="0.083" classname="should set an open state">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry OpenRegistry should emit a WorkbenchContractUpdated event" time="0" classname="should emit a WorkbenchContractUpdated event">
+    </testcase>
+  </testsuite>
+  <testsuite name="CloseRegistry" timestamp="2019-02-12T01:38:00" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.07">
+    <testcase name="Contract: BasicItemRegistry CloseRegistry should set a closed state" time="0.069" classname="should set a closed state">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry CloseRegistry should emit a WorkbenchContractUpdated event" time="0.001" classname="should emit a WorkbenchContractUpdated event">
+    </testcase>
+  </testsuite>
+  <testsuite name="RegisterItem" timestamp="2019-02-12T01:38:01" tests="0" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="state: Create" timestamp="2019-02-12T01:38:01" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.285">
+    <testcase name="Contract: BasicItemRegistry RegisterItem state: Create should not register an item when in the Created state" time="0.285" classname="should not register an item when in the Created state">
+    </testcase>
+  </testsuite>
+  <testsuite name="state: Open" timestamp="2019-02-12T01:38:01" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.227">
+    <testcase name="Contract: BasicItemRegistry RegisterItem state: Open should register an item when in the Open state" time="0.227" classname="should register an item when in the Open state">
+    </testcase>
+  </testsuite>
+  <testsuite name="state: Closed" timestamp="2019-02-12T01:38:02" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.096">
+    <testcase name="Contract: BasicItemRegistry RegisterItem state: Closed should not register an item when in the Closed state" time="0.096" classname="should not register an item when in the Closed state">
+    </testcase>
+  </testsuite>
+  <testsuite name="events" timestamp="2019-02-12T01:38:03" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.18">
+    <testcase name="Contract: BasicItemRegistry RegisterItem events should emit a WorkbenchContractUpdated event when item is successfully registered" time="0.18" classname="should emit a WorkbenchContractUpdated event when item is successfully registered">
+    </testcase>
+  </testsuite>
+  <testsuite name="view functions" timestamp="2019-02-12T01:38:04" tests="0" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="IsRegisteredItemContractAddress" timestamp="2019-02-12T01:38:05" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.161">
+    <testcase name="Contract: BasicItemRegistry view functions IsRegisteredItemContractAddress should return true for registered item addresses" time="0.129" classname="should return true for registered item addresses">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry view functions IsRegisteredItemContractAddress should return false if given an unknown address" time="0.032" classname="should return false if given an unknown address">
+    </testcase>
+  </testsuite>
+  <testsuite name="IsRegisteredItemId" timestamp="2019-02-12T01:38:05" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.428">
+    <testcase name="Contract: BasicItemRegistry view functions IsRegisteredItemId should return true for registered item ids" time="0.354" classname="should return true for registered item ids">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry view functions IsRegisteredItemId should return false if given an unknown id" time="0.074" classname="should return false if given an unknown id">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetItemByAddress" timestamp="2019-02-12T01:38:05" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.266">
+    <testcase name="Contract: BasicItemRegistry view functions GetItemByAddress should return the correct item Id given an address" time="0.232" classname="should return the correct item Id given an address">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry view functions GetItemByAddress should revert if given an unknown address" time="0.034" classname="should revert if given an unknown address">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetItemByItemId" timestamp="2019-02-12T01:38:06" tests="2" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.266">
+    <testcase name="Contract: BasicItemRegistry view functions GetItemByItemId should return the correct item address given an Id" time="0.232" classname="should return the correct item address given an Id">
+    </testcase>
+    <testcase name="Contract: BasicItemRegistry view functions GetItemByItemId should revert if given an unknown Id" time="0.034" classname="should revert if given an unknown Id">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetNumberOfRegisteredItems" timestamp="2019-02-12T01:38:06" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.032">
+    <testcase name="Contract: BasicItemRegistry view functions GetNumberOfRegisteredItems should return the number of items in the registry" time="0.032" classname="should return the number of items in the registry">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetItemAtIndex" timestamp="2019-02-12T01:38:06" tests="1" file="/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/test/BasicItemRegistry.js" failures="0" time="0.094">
+    <testcase name="Contract: BasicItemRegistry view functions GetItemAtIndex should return the correct item for a given index" time="0.094" classname="should return the correct item for a given index">
+    </testcase>
+  </testsuite>
+</testsuites>
