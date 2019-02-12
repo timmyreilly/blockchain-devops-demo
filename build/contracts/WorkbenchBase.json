@@ -71,9 +71,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.4.20;\r\n\r\ncontract WorkbenchBase {\r\n  event WorkbenchContractCreated(string applicationName, string workflowName, address originatingAddress);\r\n\r\n  event WorkbenchContractUpdated(string applicationName, string workflowName, string action, address originatingAddress);\r\n\r\n  string internal ApplicationName;\r\n\r\n  string internal WorkflowName;\r\n\r\n  function WorkbenchBase(string applicationName, string workflowName) internal {\r\n    ApplicationName = applicationName;\r\n    WorkflowName = workflowName;\r\n  }\r\n\r\n  function ContractCreated() internal {\r\n    WorkbenchContractCreated(ApplicationName, WorkflowName, msg.sender);\r\n  }\r\n\r\n  function ContractUpdated(string action) internal {\r\n    WorkbenchContractUpdated(ApplicationName, WorkflowName, action, msg.sender);\r\n  }\r\n}\r\n\r\n",
-  "sourcePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
+  "sourcePath": "C:\\Users\\tireilly\\GitHub\\devop-blockchain\\blockchain-devops-demo\\contracts\\lib\\WorkbenchBase.sol",
   "ast": {
-    "absolutePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
+    "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
     "exportedSymbols": {
       "WorkbenchBase": [
         852
@@ -882,7 +882,7 @@
     "src": "0:793:4"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
+    "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
     "exportedSymbols": {
       "WorkbenchBase": [
         852
@@ -1696,7 +1696,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-02-12T01:37:40.470Z",
+  "updatedAt": "2019-02-12T01:42:00.290Z",
   "devdoc": {
     "methods": {}
   },

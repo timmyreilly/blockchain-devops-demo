@@ -1,14 +1,14 @@
 {
   "contractName": "String",
   "abi": [],
-  "bytecode": "0x604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146060604052600080fd00a165627a7a7230582048ba7bbec5dd0300267af6ae5abbe8bf78213c9e4d8022df389db04a5c0f925b0029",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146060604052600080fd00a165627a7a7230582048ba7bbec5dd0300267af6ae5abbe8bf78213c9e4d8022df389db04a5c0f925b0029",
+  "bytecode": "0x604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146060604052600080fd00a165627a7a723058204e9f6c1feb4d3c40b3265b697565c599e4f5586810458bb29b5ccd023c51eb1f0029",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146060604052600080fd00a165627a7a723058204e9f6c1feb4d3c40b3265b697565c599e4f5586810458bb29b5ccd023c51eb1f0029",
   "sourceMap": "28:1670:3:-;;132:2:-1;166:7;155:9;146:7;137:37;252:7;246:14;243:1;238:23;232:4;229:33;270:1;265:20;;;;222:63;;265:20;274:9;222:63;;298:9;295:1;288:20;328:4;319:7;311:22;352:7;343;336:24",
   "deployedSourceMap": "28:1670:3:-;;;;;;;;",
   "source": "pragma solidity ^0.4.20;\r\n\r\nlibrary String {\r\n\r\n  //-----------------------------------------------------\r\n  // Supporting Functions\r\n  //-----------------------------------------------------\r\n  function stringToBytes32(string memory source) internal pure returns (bytes32 result) {\r\n    bytes memory tempEmptyStringTest = bytes(source);\r\n    if (tempEmptyStringTest.length == 0) {\r\n      return 0x0;\r\n    }\r\n\r\n    assembly {\r\n      result := mload(add(source, 32))\r\n    }\r\n  }\r\n\r\n  function bytes32ToString (bytes32 x) internal pure returns (string) {\r\n    bytes memory bytesString = new bytes(32);\r\n    uint charCount = 0;\r\n    for (uint j  = 0; j < 32; j++) {\r\n      byte char = byte(bytes32(uint(x) * 2 ** (8 * j)));\r\n      if (char != 0) {\r\n        bytesString[charCount] = char;\r\n        charCount++;\r\n      }\r\n    }\r\n    bytes memory bytesStringTrimmed = new bytes(charCount);\r\n    for (j = 0; j < charCount; j++) {\r\n      bytesStringTrimmed[j] = bytesString[j];\r\n    }\r\n    return string(bytesStringTrimmed);\r\n\r\n  }\r\n\r\n  function compareStrings (string a, string b) internal pure returns (bool){\r\n    return keccak256(a) == keccak256(b);\r\n  }\r\n\r\n  function stringToAddress(string _a) internal pure returns (address){\r\n    bytes memory tmp = bytes(_a);\r\n    uint160 iaddr = 0;\r\n    uint160 b1;\r\n    uint160 b2;\r\n    for (uint i=2; i<2+2*20; i+=2){\r\n      iaddr *= 256;\r\n      b1 = uint160(tmp[i]);\r\n      b2 = uint160(tmp[i+1]);\r\n      if ((b1 >= 97)&&(b1 <= 102)) b1 -= 87;\r\n      else if ((b1 >= 48)&&(b1 <= 57)) b1 -= 48;\r\n      if ((b2 >= 97)&&(b2 <= 102)) b2 -= 87;\r\n      else if ((b2 >= 48)&&(b2 <= 57)) b2 -= 48;\r\n      iaddr += (b1*16+b2);\r\n    }\r\n    return address(iaddr);\r\n  }\r\n}\r\n",
-  "sourcePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/String.sol",
+  "sourcePath": "C:\\Users\\tireilly\\GitHub\\devop-blockchain\\blockchain-devops-demo\\contracts\\lib\\String.sol",
   "ast": {
-    "absolutePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/String.sol",
+    "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/String.sol",
     "exportedSymbols": {
       "String": [
         786
@@ -3711,7 +3711,7 @@
     "src": "0:1700:3"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/c/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/String.sol",
+    "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/String.sol",
     "exportedSymbols": {
       "String": [
         786
@@ -7419,7 +7419,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-02-12T01:37:40.469Z",
+  "updatedAt": "2019-02-12T01:42:00.296Z",
   "devdoc": {
     "methods": {}
   },
