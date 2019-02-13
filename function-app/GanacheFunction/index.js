@@ -59,3 +59,14 @@ function send(req) {
     });
   });
 }
+
+
+// function intoTheVoid(req, res, next) {
+//   return new Promise(function (accept, reject) {
+//     provider.sendAsync(req, function(err, res) {
+//       if(err && !res) {
+//         reject (err)
+//       }
+//     })
+//   })
+// }
