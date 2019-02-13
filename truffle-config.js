@@ -98,6 +98,13 @@ module.exports = {
       // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
       // network_id: 2111,   // This network is yours, in the cloud.
       // production: true    // Treats this network as if it was a public net. (default: false)
+    },
+
+    // https://pensiamotest1mem2.blockchain.azure.com:3200
+    managed: {
+      host: "pensiamotest1mem2.blockchain.azure.com",
+      port: 3000, 
+      network_id: "*"
     }
   },
 
