@@ -76,14 +76,14 @@
     "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
     "exportedSymbols": {
       "WorkbenchBase": [
-        852
+        919
       ]
     },
-    "id": 853,
+    "id": 920,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 788,
+        "id": 855,
         "literals": [
           "solidity",
           "^",
@@ -91,7 +91,7 @@
           ".20"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:6"
       },
       {
         "baseContracts": [],
@@ -99,30 +99,30 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 852,
+        "id": 919,
         "linearizedBaseContracts": [
-          852
+          919
         ],
         "name": "WorkbenchBase",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
-            "id": 796,
+            "id": 863,
             "name": "WorkbenchContractCreated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 795,
+              "id": 862,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 790,
+                  "id": 857,
                   "indexed": false,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "87:22:4",
+                  "scope": 863,
+                  "src": "87:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -130,10 +130,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 789,
+                    "id": 856,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "87:6:4",
+                    "src": "87:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -144,12 +144,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 792,
+                  "id": 859,
                   "indexed": false,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "111:19:4",
+                  "scope": 863,
+                  "src": "111:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -157,10 +157,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 791,
+                    "id": 858,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "111:6:4",
+                    "src": "111:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -171,12 +171,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 794,
+                  "id": 861,
                   "indexed": false,
                   "name": "originatingAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "132:26:4",
+                  "scope": 863,
+                  "src": "132:26:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -184,10 +184,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 793,
+                    "id": 860,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "132:7:4",
+                    "src": "132:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -197,27 +197,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "86:73:4"
+              "src": "86:73:6"
             },
-            "src": "56:104:4"
+            "src": "56:104:6"
           },
           {
             "anonymous": false,
-            "id": 806,
+            "id": 873,
             "name": "WorkbenchContractUpdated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 805,
+              "id": 872,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 798,
+                  "id": 865,
                   "indexed": false,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "197:22:4",
+                  "scope": 873,
+                  "src": "197:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -225,10 +225,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 797,
+                    "id": 864,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "197:6:4",
+                    "src": "197:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -239,12 +239,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 800,
+                  "id": 867,
                   "indexed": false,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "221:19:4",
+                  "scope": 873,
+                  "src": "221:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -252,10 +252,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 799,
+                    "id": 866,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "221:6:4",
+                    "src": "221:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -266,12 +266,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 802,
+                  "id": 869,
                   "indexed": false,
                   "name": "action",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "242:13:4",
+                  "scope": 873,
+                  "src": "242:13:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -279,10 +279,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 801,
+                    "id": 868,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "242:6:4",
+                    "src": "242:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -293,12 +293,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 804,
+                  "id": 871,
                   "indexed": false,
                   "name": "originatingAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "257:26:4",
+                  "scope": 873,
+                  "src": "257:26:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -306,10 +306,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 803,
+                    "id": 870,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "257:7:4",
+                    "src": "257:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -319,17 +319,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "196:88:4"
+              "src": "196:88:6"
             },
-            "src": "166:119:4"
+            "src": "166:119:6"
           },
           {
             "constant": false,
-            "id": 808,
+            "id": 875,
             "name": "ApplicationName",
             "nodeType": "VariableDeclaration",
-            "scope": 852,
-            "src": "291:31:4",
+            "scope": 919,
+            "src": "291:31:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -337,10 +337,10 @@
               "typeString": "string storage ref"
             },
             "typeName": {
-              "id": 807,
+              "id": 874,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "291:6:4",
+              "src": "291:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -351,11 +351,11 @@
           },
           {
             "constant": false,
-            "id": 810,
+            "id": 877,
             "name": "WorkflowName",
             "nodeType": "VariableDeclaration",
-            "scope": 852,
-            "src": "329:28:4",
+            "scope": 919,
+            "src": "329:28:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -363,10 +363,10 @@
               "typeString": "string storage ref"
             },
             "typeName": {
-              "id": 809,
+              "id": 876,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "329:6:4",
+              "src": "329:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -377,26 +377,26 @@
           },
           {
             "body": {
-              "id": 825,
+              "id": 892,
               "nodeType": "Block",
-              "src": "441:80:4",
+              "src": "441:80:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 819,
+                    "id": 886,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 817,
+                      "id": 884,
                       "name": "ApplicationName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 808,
-                      "src": "448:15:4",
+                      "referencedDeclaration": 875,
+                      "src": "448:15:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -406,43 +406,43 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 818,
+                      "id": 885,
                       "name": "applicationName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 812,
-                      "src": "466:15:4",
+                      "referencedDeclaration": 879,
+                      "src": "466:15:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "448:33:4",
+                    "src": "448:33:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 820,
+                  "id": 887,
                   "nodeType": "ExpressionStatement",
-                  "src": "448:33:4"
+                  "src": "448:33:6"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 823,
+                    "id": 890,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 821,
+                      "id": 888,
                       "name": "WorkflowName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 810,
-                      "src": "488:12:4",
+                      "referencedDeclaration": 877,
+                      "src": "488:12:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -452,30 +452,30 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 822,
+                      "id": 889,
                       "name": "workflowName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 814,
-                      "src": "503:12:4",
+                      "referencedDeclaration": 881,
+                      "src": "503:12:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "488:27:4",
+                    "src": "488:27:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 824,
+                  "id": 891,
                   "nodeType": "ExpressionStatement",
-                  "src": "488:27:4"
+                  "src": "488:27:6"
                 }
               ]
             },
-            "id": 826,
+            "id": 893,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -483,16 +483,16 @@
             "name": "WorkbenchBase",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 815,
+              "id": 882,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 812,
+                  "id": 879,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 826,
-                  "src": "387:22:4",
+                  "scope": 893,
+                  "src": "387:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -500,10 +500,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 811,
+                    "id": 878,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "387:6:4",
+                    "src": "387:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -514,11 +514,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 814,
+                  "id": 881,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 826,
-                  "src": "411:19:4",
+                  "scope": 893,
+                  "src": "411:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -526,10 +526,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 813,
+                    "id": 880,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "411:6:4",
+                    "src": "411:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -539,26 +539,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "386:45:4"
+              "src": "386:45:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 816,
+              "id": 883,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "441:0:4"
+              "src": "441:0:6"
             },
-            "scope": 852,
-            "src": "364:157:4",
+            "scope": 919,
+            "src": "364:157:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 836,
+              "id": 903,
               "nodeType": "Block",
-              "src": "563:80:4",
+              "src": "563:80:6",
               "statements": [
                 {
                   "expression": {
@@ -566,12 +566,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 830,
+                        "id": 897,
                         "name": "ApplicationName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 808,
-                        "src": "595:15:4",
+                        "referencedDeclaration": 875,
+                        "src": "595:15:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -579,12 +579,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 831,
+                        "id": 898,
                         "name": "WorkflowName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 810,
-                        "src": "612:12:4",
+                        "referencedDeclaration": 877,
+                        "src": "612:12:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -594,18 +594,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 832,
+                          "id": 899,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 864,
-                          "src": "626:3:4",
+                          "referencedDeclaration": 931,
+                          "src": "626:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 833,
+                        "id": 900,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -613,7 +613,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "626:10:4",
+                        "src": "626:10:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -635,18 +635,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 829,
+                      "id": 896,
                       "name": "WorkbenchContractCreated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 796,
-                      "src": "570:24:4",
+                      "referencedDeclaration": 863,
+                      "src": "570:24:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_address_$returns$__$",
                         "typeString": "function (string memory,string memory,address)"
                       }
                     },
-                    "id": 834,
+                    "id": 901,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -654,19 +654,19 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "570:67:4",
+                    "src": "570:67:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 835,
+                  "id": 902,
                   "nodeType": "ExpressionStatement",
-                  "src": "570:67:4"
+                  "src": "570:67:6"
                 }
               ]
             },
-            "id": 837,
+            "id": 904,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -674,29 +674,29 @@
             "name": "ContractCreated",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 827,
+              "id": 894,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "551:2:4"
+              "src": "551:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 828,
+              "id": 895,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "563:0:4"
+              "src": "563:0:6"
             },
-            "scope": 852,
-            "src": "527:116:4",
+            "scope": 919,
+            "src": "527:116:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 850,
+              "id": 917,
               "nodeType": "Block",
-              "src": "698:88:4",
+              "src": "698:88:6",
               "statements": [
                 {
                   "expression": {
@@ -704,12 +704,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 843,
+                        "id": 910,
                         "name": "ApplicationName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 808,
-                        "src": "730:15:4",
+                        "referencedDeclaration": 875,
+                        "src": "730:15:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -717,12 +717,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 844,
+                        "id": 911,
                         "name": "WorkflowName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 810,
-                        "src": "747:12:4",
+                        "referencedDeclaration": 877,
+                        "src": "747:12:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -730,12 +730,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 845,
+                        "id": 912,
                         "name": "action",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 839,
-                        "src": "761:6:4",
+                        "referencedDeclaration": 906,
+                        "src": "761:6:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -745,18 +745,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 846,
+                          "id": 913,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 864,
-                          "src": "769:3:4",
+                          "referencedDeclaration": 931,
+                          "src": "769:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 847,
+                        "id": 914,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -764,7 +764,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "769:10:4",
+                        "src": "769:10:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -790,18 +790,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 842,
+                      "id": 909,
                       "name": "WorkbenchContractUpdated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 806,
-                      "src": "705:24:4",
+                      "referencedDeclaration": 873,
+                      "src": "705:24:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_address_$returns$__$",
                         "typeString": "function (string memory,string memory,string memory,address)"
                       }
                     },
-                    "id": 848,
+                    "id": 915,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -809,19 +809,19 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "705:75:4",
+                    "src": "705:75:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 849,
+                  "id": 916,
                   "nodeType": "ExpressionStatement",
-                  "src": "705:75:4"
+                  "src": "705:75:6"
                 }
               ]
             },
-            "id": 851,
+            "id": 918,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -829,16 +829,16 @@
             "name": "ContractUpdated",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 840,
+              "id": 907,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 839,
+                  "id": 906,
                   "name": "action",
                   "nodeType": "VariableDeclaration",
-                  "scope": 851,
-                  "src": "674:13:4",
+                  "scope": 918,
+                  "src": "674:13:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -846,10 +846,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 838,
+                    "id": 905,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "674:6:4",
+                    "src": "674:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -859,40 +859,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "673:15:4"
+              "src": "673:15:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 841,
+              "id": 908,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "698:0:4"
+              "src": "698:0:6"
             },
-            "scope": 852,
-            "src": "649:137:4",
+            "scope": 919,
+            "src": "649:137:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 853,
-        "src": "28:761:4"
+        "scope": 920,
+        "src": "28:761:6"
       }
     ],
-    "src": "0:793:4"
+    "src": "0:793:6"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/tireilly/GitHub/devop-blockchain/blockchain-devops-demo/contracts/lib/WorkbenchBase.sol",
     "exportedSymbols": {
       "WorkbenchBase": [
-        852
+        919
       ]
     },
-    "id": 853,
+    "id": 920,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 788,
+        "id": 855,
         "literals": [
           "solidity",
           "^",
@@ -900,7 +900,7 @@
           ".20"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:6"
       },
       {
         "baseContracts": [],
@@ -908,30 +908,30 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 852,
+        "id": 919,
         "linearizedBaseContracts": [
-          852
+          919
         ],
         "name": "WorkbenchBase",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
-            "id": 796,
+            "id": 863,
             "name": "WorkbenchContractCreated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 795,
+              "id": 862,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 790,
+                  "id": 857,
                   "indexed": false,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "87:22:4",
+                  "scope": 863,
+                  "src": "87:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -939,10 +939,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 789,
+                    "id": 856,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "87:6:4",
+                    "src": "87:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -953,12 +953,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 792,
+                  "id": 859,
                   "indexed": false,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "111:19:4",
+                  "scope": 863,
+                  "src": "111:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -966,10 +966,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 791,
+                    "id": 858,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "111:6:4",
+                    "src": "111:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -980,12 +980,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 794,
+                  "id": 861,
                   "indexed": false,
                   "name": "originatingAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 796,
-                  "src": "132:26:4",
+                  "scope": 863,
+                  "src": "132:26:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -993,10 +993,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 793,
+                    "id": 860,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "132:7:4",
+                    "src": "132:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1006,27 +1006,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "86:73:4"
+              "src": "86:73:6"
             },
-            "src": "56:104:4"
+            "src": "56:104:6"
           },
           {
             "anonymous": false,
-            "id": 806,
+            "id": 873,
             "name": "WorkbenchContractUpdated",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 805,
+              "id": 872,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 798,
+                  "id": 865,
                   "indexed": false,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "197:22:4",
+                  "scope": 873,
+                  "src": "197:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1034,10 +1034,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 797,
+                    "id": 864,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "197:6:4",
+                    "src": "197:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1048,12 +1048,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 800,
+                  "id": 867,
                   "indexed": false,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "221:19:4",
+                  "scope": 873,
+                  "src": "221:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1061,10 +1061,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 799,
+                    "id": 866,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "221:6:4",
+                    "src": "221:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1075,12 +1075,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 802,
+                  "id": 869,
                   "indexed": false,
                   "name": "action",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "242:13:4",
+                  "scope": 873,
+                  "src": "242:13:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1088,10 +1088,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 801,
+                    "id": 868,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "242:6:4",
+                    "src": "242:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1102,12 +1102,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 804,
+                  "id": 871,
                   "indexed": false,
                   "name": "originatingAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 806,
-                  "src": "257:26:4",
+                  "scope": 873,
+                  "src": "257:26:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1115,10 +1115,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 803,
+                    "id": 870,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "257:7:4",
+                    "src": "257:7:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1128,17 +1128,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "196:88:4"
+              "src": "196:88:6"
             },
-            "src": "166:119:4"
+            "src": "166:119:6"
           },
           {
             "constant": false,
-            "id": 808,
+            "id": 875,
             "name": "ApplicationName",
             "nodeType": "VariableDeclaration",
-            "scope": 852,
-            "src": "291:31:4",
+            "scope": 919,
+            "src": "291:31:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1146,10 +1146,10 @@
               "typeString": "string storage ref"
             },
             "typeName": {
-              "id": 807,
+              "id": 874,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "291:6:4",
+              "src": "291:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -1160,11 +1160,11 @@
           },
           {
             "constant": false,
-            "id": 810,
+            "id": 877,
             "name": "WorkflowName",
             "nodeType": "VariableDeclaration",
-            "scope": 852,
-            "src": "329:28:4",
+            "scope": 919,
+            "src": "329:28:6",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1172,10 +1172,10 @@
               "typeString": "string storage ref"
             },
             "typeName": {
-              "id": 809,
+              "id": 876,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "329:6:4",
+              "src": "329:6:6",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string storage pointer"
@@ -1186,26 +1186,26 @@
           },
           {
             "body": {
-              "id": 825,
+              "id": 892,
               "nodeType": "Block",
-              "src": "441:80:4",
+              "src": "441:80:6",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 819,
+                    "id": 886,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 817,
+                      "id": 884,
                       "name": "ApplicationName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 808,
-                      "src": "448:15:4",
+                      "referencedDeclaration": 875,
+                      "src": "448:15:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -1215,43 +1215,43 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 818,
+                      "id": 885,
                       "name": "applicationName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 812,
-                      "src": "466:15:4",
+                      "referencedDeclaration": 879,
+                      "src": "466:15:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "448:33:4",
+                    "src": "448:33:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 820,
+                  "id": 887,
                   "nodeType": "ExpressionStatement",
-                  "src": "448:33:4"
+                  "src": "448:33:6"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 823,
+                    "id": 890,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 821,
+                      "id": 888,
                       "name": "WorkflowName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 810,
-                      "src": "488:12:4",
+                      "referencedDeclaration": 877,
+                      "src": "488:12:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -1261,30 +1261,30 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 822,
+                      "id": 889,
                       "name": "workflowName",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 814,
-                      "src": "503:12:4",
+                      "referencedDeclaration": 881,
+                      "src": "503:12:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "488:27:4",
+                    "src": "488:27:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 824,
+                  "id": 891,
                   "nodeType": "ExpressionStatement",
-                  "src": "488:27:4"
+                  "src": "488:27:6"
                 }
               ]
             },
-            "id": 826,
+            "id": 893,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -1292,16 +1292,16 @@
             "name": "WorkbenchBase",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 815,
+              "id": 882,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 812,
+                  "id": 879,
                   "name": "applicationName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 826,
-                  "src": "387:22:4",
+                  "scope": 893,
+                  "src": "387:22:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1309,10 +1309,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 811,
+                    "id": 878,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "387:6:4",
+                    "src": "387:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1323,11 +1323,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 814,
+                  "id": 881,
                   "name": "workflowName",
                   "nodeType": "VariableDeclaration",
-                  "scope": 826,
-                  "src": "411:19:4",
+                  "scope": 893,
+                  "src": "411:19:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1335,10 +1335,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 813,
+                    "id": 880,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "411:6:4",
+                    "src": "411:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1348,26 +1348,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "386:45:4"
+              "src": "386:45:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 816,
+              "id": 883,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "441:0:4"
+              "src": "441:0:6"
             },
-            "scope": 852,
-            "src": "364:157:4",
+            "scope": 919,
+            "src": "364:157:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 836,
+              "id": 903,
               "nodeType": "Block",
-              "src": "563:80:4",
+              "src": "563:80:6",
               "statements": [
                 {
                   "expression": {
@@ -1375,12 +1375,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 830,
+                        "id": 897,
                         "name": "ApplicationName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 808,
-                        "src": "595:15:4",
+                        "referencedDeclaration": 875,
+                        "src": "595:15:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -1388,12 +1388,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 831,
+                        "id": 898,
                         "name": "WorkflowName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 810,
-                        "src": "612:12:4",
+                        "referencedDeclaration": 877,
+                        "src": "612:12:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -1403,18 +1403,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 832,
+                          "id": 899,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 864,
-                          "src": "626:3:4",
+                          "referencedDeclaration": 931,
+                          "src": "626:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 833,
+                        "id": 900,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1422,7 +1422,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "626:10:4",
+                        "src": "626:10:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1444,18 +1444,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 829,
+                      "id": 896,
                       "name": "WorkbenchContractCreated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 796,
-                      "src": "570:24:4",
+                      "referencedDeclaration": 863,
+                      "src": "570:24:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_address_$returns$__$",
                         "typeString": "function (string memory,string memory,address)"
                       }
                     },
-                    "id": 834,
+                    "id": 901,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1463,19 +1463,19 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "570:67:4",
+                    "src": "570:67:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 835,
+                  "id": 902,
                   "nodeType": "ExpressionStatement",
-                  "src": "570:67:4"
+                  "src": "570:67:6"
                 }
               ]
             },
-            "id": 837,
+            "id": 904,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1483,29 +1483,29 @@
             "name": "ContractCreated",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 827,
+              "id": 894,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "551:2:4"
+              "src": "551:2:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 828,
+              "id": 895,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "563:0:4"
+              "src": "563:0:6"
             },
-            "scope": 852,
-            "src": "527:116:4",
+            "scope": 919,
+            "src": "527:116:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 850,
+              "id": 917,
               "nodeType": "Block",
-              "src": "698:88:4",
+              "src": "698:88:6",
               "statements": [
                 {
                   "expression": {
@@ -1513,12 +1513,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 843,
+                        "id": 910,
                         "name": "ApplicationName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 808,
-                        "src": "730:15:4",
+                        "referencedDeclaration": 875,
+                        "src": "730:15:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -1526,12 +1526,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 844,
+                        "id": 911,
                         "name": "WorkflowName",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 810,
-                        "src": "747:12:4",
+                        "referencedDeclaration": 877,
+                        "src": "747:12:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
                           "typeString": "string storage ref"
@@ -1539,12 +1539,12 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 845,
+                        "id": 912,
                         "name": "action",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 839,
-                        "src": "761:6:4",
+                        "referencedDeclaration": 906,
+                        "src": "761:6:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -1554,18 +1554,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 846,
+                          "id": 913,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 864,
-                          "src": "769:3:4",
+                          "referencedDeclaration": 931,
+                          "src": "769:3:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 847,
+                        "id": 914,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1573,7 +1573,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "769:10:4",
+                        "src": "769:10:6",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1599,18 +1599,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 842,
+                      "id": 909,
                       "name": "WorkbenchContractUpdated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 806,
-                      "src": "705:24:4",
+                      "referencedDeclaration": 873,
+                      "src": "705:24:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_string_memory_ptr_$_t_address_$returns$__$",
                         "typeString": "function (string memory,string memory,string memory,address)"
                       }
                     },
-                    "id": 848,
+                    "id": 915,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1618,19 +1618,19 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "705:75:4",
+                    "src": "705:75:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 849,
+                  "id": 916,
                   "nodeType": "ExpressionStatement",
-                  "src": "705:75:4"
+                  "src": "705:75:6"
                 }
               ]
             },
-            "id": 851,
+            "id": 918,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1638,16 +1638,16 @@
             "name": "ContractUpdated",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 840,
+              "id": 907,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 839,
+                  "id": 906,
                   "name": "action",
                   "nodeType": "VariableDeclaration",
-                  "scope": 851,
-                  "src": "674:13:4",
+                  "scope": 918,
+                  "src": "674:13:6",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1655,10 +1655,10 @@
                     "typeString": "string memory"
                   },
                   "typeName": {
-                    "id": 838,
+                    "id": 905,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "674:6:4",
+                    "src": "674:6:6",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string storage pointer"
@@ -1668,27 +1668,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "673:15:4"
+              "src": "673:15:6"
             },
             "payable": false,
             "returnParameters": {
-              "id": 841,
+              "id": 908,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "698:0:4"
+              "src": "698:0:6"
             },
-            "scope": 852,
-            "src": "649:137:4",
+            "scope": 919,
+            "src": "649:137:6",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "internal"
           }
         ],
-        "scope": 853,
-        "src": "28:761:4"
+        "scope": 920,
+        "src": "28:761:6"
       }
     ],
-    "src": "0:793:4"
+    "src": "0:793:6"
   },
   "compiler": {
     "name": "solc",
@@ -1696,7 +1696,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-02-12T23:12:58.211Z",
+  "updatedAt": "2019-02-13T23:55:22.566Z",
   "devdoc": {
     "methods": {}
   },

@@ -72,6 +72,7 @@ module.exports = {
       network_id: "*"
     },
 
+
     // Another network with more advanced options...
     advanced: {
       // port: 8777,             // Custom port
@@ -100,12 +101,7 @@ module.exports = {
       // production: true    // Treats this network as if it was a public net. (default: false)
     },
 
-    // https://pensiamotest1mem2.blockchain.azure.com:3200
-    managed: {
-      host: "pensiamotest1mem2.blockchain.azure.com",
-      port: 3000, 
-      network_id: "*"
-    }
+
   },
 
   // Set default mocha options here, use special reporters etc.
