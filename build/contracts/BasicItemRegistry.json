@@ -8145,9 +8145,114 @@
     "name": "solc",
     "version": "0.4.20+commit.3155dd80.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1337": {
+      "events": {
+        "0x9dac2bb7b2ff70158aa6aead877498864a68fa0309f6d077dfb67be3e46c170c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "ItemContractAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "index",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "Item",
+              "type": "bytes32"
+            }
+          ],
+          "name": "LogNewItem",
+          "type": "event",
+          "signature": "0x9dac2bb7b2ff70158aa6aead877498864a68fa0309f6d077dfb67be3e46c170c"
+        },
+        "0x1cf379d266216e95735cb93586986eb75a399183bd25b8b26058b509a3c483ba": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "ItemContractAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "index",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "ItemId",
+              "type": "bytes32"
+            }
+          ],
+          "name": "LogUpdateItem",
+          "type": "event",
+          "signature": "0x1cf379d266216e95735cb93586986eb75a399183bd25b8b26058b509a3c483ba"
+        },
+        "0x5164ff06e10737dceb282871701b28082988339e79ba9d49c6c9b0e00312982b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "applicationName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "workflowName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "originatingAddress",
+              "type": "address"
+            }
+          ],
+          "name": "WorkbenchContractCreated",
+          "type": "event",
+          "signature": "0x5164ff06e10737dceb282871701b28082988339e79ba9d49c6c9b0e00312982b"
+        },
+        "0xa13bd79f323c399d36191e886ded389c940ccd7e6dd744d1505943592fb2b433": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "applicationName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "workflowName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "action",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "originatingAddress",
+              "type": "address"
+            }
+          ],
+          "name": "WorkbenchContractUpdated",
+          "type": "event",
+          "signature": "0xa13bd79f323c399d36191e886ded389c940ccd7e6dd744d1505943592fb2b433"
+        }
+      },
+      "links": {},
+      "address": "0xb502A51216183E7eF716699176c388256C9541Aa",
+      "transactionHash": "0xdf4b46a3922382b9c5330f88a354abf0fca97dc3ee646634f6360960e9c6bc4d"
+    }
+  },
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-02-13T23:55:22.569Z",
+  "updatedAt": "2019-02-14T22:53:43.188Z",
   "devdoc": {
     "methods": {}
   },

@@ -101,6 +101,17 @@ module.exports = {
       // production: true    // Treats this network as if it was a public net. (default: false)
     },
 
+    managed: {
+      host: "127.0.0.1",
+      port: "3100", 
+      network_id: "*", // to make a difference between different networks for different ledgers
+      gas: 4500000,
+      gasPrice: 0,
+      // from: "" // this account is needs to be unlocked unlocked
+      from: "0xECC58e335Bc29D95C287A57655600dA41F5168CD"
+
+    }
+
 
   },
 
