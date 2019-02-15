@@ -30,11 +30,6 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml' 
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop' 
-  inputs:
-    pathToPublish: '$(Build.SourceFilesDirectory)'
-
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
   inputs:
@@ -44,6 +39,12 @@ steps:
       truffle-config.js
       package.json 
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop' 
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+
 
 # - task: ArchiveFiles@2
 #   inputs:
