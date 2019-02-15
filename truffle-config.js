@@ -24,11 +24,12 @@ const HttpProvider = require('web3-providers-http');
  *
  */
 
-// const HDWallet = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "priority club obvious reject zero scale cause insane pilot idea cannon right"; 
 
 let testURL = process.env['APP_SVC_URL']
 
@@ -96,7 +97,9 @@ module.exports = {
 
     // Useful for private networks
     private: {
-      // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
+      provider: () => new HDWalletProvider(mnemonic, `https://timsnode-pensiamotest3.blockchain.azure.com:3200/e3LT0724LUxyF395ycFNel7Q`),
+      gasPrice: 0,
+      network_id: "*" 
       // network_id: 2111,   // This network is yours, in the cloud.
       // production: true    // Treats this network as if it was a public net. (default: false)
     },

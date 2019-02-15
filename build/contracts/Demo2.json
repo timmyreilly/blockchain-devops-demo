@@ -1076,12 +1076,12 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x97FEfC282a78C475E2B812194fC3c46cf09408b4",
-      "transactionHash": "0x49a67c1e3e4e99f548b3cd6dcb36daf1121658bbb309b12532bf5391cc3994b8"
+      "address": "0x2ea6b538de45Dd7a80d79e07B492A75DAe0241F7",
+      "transactionHash": "0x05f9d2052d1d465228adfd514506218dbb0076abad3c43c380d81cc100d2d896"
     }
   },
   "schemaVersion": "3.0.0-beta.2",
-  "updatedAt": "2019-02-14T23:55:03.882Z",
+  "updatedAt": "2019-02-15T18:08:39.478Z",
   "devdoc": {
     "methods": {}
   },
