@@ -36,6 +36,7 @@ steps:
     Contents: |
       build/**
       UpdateLogicApp/*
+      migrations/*
       truffle-config.js
       package.json 
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
