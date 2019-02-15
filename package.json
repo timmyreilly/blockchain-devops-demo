@@ -12,16 +12,14 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+"dependencies": {
+    "httpheaderprovider": "^0.3.4",
     "bignumber.js": "^8.0.1",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.18.0",
     "mocha-multi-reporters": "^1.1.7",
     "truffle": "^5.0.4",
-    "web3-providers-http": "^1.0.0-beta.36"
-  },
-  "dependencies": {
-    "httpheaderprovider": "^0.3.4",
+    "web3-providers-http": "^1.0.0-beta.36",
     "truffle-hdwallet-provider": "^1.0.0-web3one.1"
   }
 }
