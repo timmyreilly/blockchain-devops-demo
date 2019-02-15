@@ -1,9 +1,9 @@
 {
     "resource-group" : "Pensiamo-Westlake3", 
-    "logic-app" : "Pensiamo-LogicApp3", 
+    "logic-app" : "demo-add", 
     "actions" : [
         {
-            "action": "Get_smart_contract_state_(all_properties)",
+            "action": "Execute_smart_contract_function_(incurring_gas_cost)",
             "contract" : "Demo2"
         }
     ]
