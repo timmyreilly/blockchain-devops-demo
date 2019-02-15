@@ -33,8 +33,17 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop' 
   inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    pathToPublish: '$(Build.SourceFilesDirectory)'
 
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    Contents: |
+      build
+      UpdateLogicApp
+      truffle-config.js
+      package.json 
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 # - task: ArchiveFiles@2
 #   inputs:
