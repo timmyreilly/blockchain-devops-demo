@@ -1,0 +1,10 @@
+{
+    "resource-group" : "Pensiamo-Westlake3", 
+    "logic-app" : "Pensiamo-LogicApp3", 
+    "action" : [
+        {
+            "action": "Get_smart_contract_state_(all_properties)",
+            "contract" : "Demo2"
+        }
+    ]
+}
