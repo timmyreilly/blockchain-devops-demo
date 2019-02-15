@@ -34,8 +34,8 @@ steps:
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
   inputs:
     Contents: |
-      build
-      UpdateLogicApp
+      build/*
+      UpdateLogicApp/*
       truffle-config.js
       package.json 
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
