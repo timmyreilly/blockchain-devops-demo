@@ -1,0 +1,361 @@
+{
+    "source": 2,
+    "revision": 44,
+    "description": null,
+    "createdBy": {
+        "displayName": "Tim Reilly",
+        "url": "https://app.vssps.visualstudio.com/A3c0f1319-7d98-4518-b378-a341e4d44694/_apis/Identities/a76591f3-7667-483c-82b4-5b9983ae0492",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/tireilly/_apis/GraphProfile/MemberAvatars/aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+            }
+        },
+        "id": "a76591f3-7667-483c-82b4-5b9983ae0492",
+        "uniqueName": "tireilly@microsoft.com",
+        "imageUrl": "https://dev.azure.com/tireilly/_api/_common/identityImage?id=a76591f3-7667-483c-82b4-5b9983ae0492",
+        "descriptor": "aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+    },
+    "createdOn": "2019-02-13T18:41:20.120Z",
+    "modifiedBy": {
+        "displayName": "Tim Reilly",
+        "url": "https://app.vssps.visualstudio.com/A3c0f1319-7d98-4518-b378-a341e4d44694/_apis/Identities/a76591f3-7667-483c-82b4-5b9983ae0492",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/tireilly/_apis/GraphProfile/MemberAvatars/aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+            }
+        },
+        "id": "a76591f3-7667-483c-82b4-5b9983ae0492",
+        "uniqueName": "tireilly@microsoft.com",
+        "imageUrl": "https://dev.azure.com/tireilly/_api/_common/identityImage?id=a76591f3-7667-483c-82b4-5b9983ae0492",
+        "descriptor": "aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+    },
+    "modifiedOn": "2019-02-16T00:01:55.427Z",
+    "isDeleted": false,
+    "variables": {
+        "MASTER_FUNCTION_KEY": {
+            "value": null,
+            "isSecret": true
+        }
+    },
+    "variableGroups": [],
+    "environments": [
+        {
+            "id": 1,
+            "name": "Deploy Ganache Function",
+            "rank": 1,
+            "owner": {
+                "displayName": "Tim Reilly",
+                "url": "https://app.vssps.visualstudio.com/A3c0f1319-7d98-4518-b378-a341e4d44694/_apis/Identities/a76591f3-7667-483c-82b4-5b9983ae0492",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/tireilly/_apis/GraphProfile/MemberAvatars/aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+                    }
+                },
+                "id": "a76591f3-7667-483c-82b4-5b9983ae0492",
+                "uniqueName": "tireilly@microsoft.com",
+                "imageUrl": "https://dev.azure.com/tireilly/_api/_common/identityImage?id=a76591f3-7667-483c-82b4-5b9983ae0492",
+                "descriptor": "aad.YjQ0NzM0ODAtNDRmZC03ODQ0LTk1ZTItMDQ5YThiMzVhN2E5"
+            },
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 1
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 1
+                }
+            },
+            "deployStep": {
+                "id": 2
+            },
+            "postDeployApprovals": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 3
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": 2
+                }
+            },
+            "deployPhases": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": 0
+                        },
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 12,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": 1,
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "fe47e961-9fa8-4106-8639-368c022d43ad",
+                            "version": "1.*",
+                            "name": "npm install",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "command": "install",
+                                "workingDir": "$(System.DefaultWorkingDirectory)/_drop_build_and_logicapp/drop",
+                                "verbose": "false",
+                                "customCommand": "",
+                                "customRegistry": "useNpmrc",
+                                "customFeed": "",
+                                "customEndpoint": "",
+                                "publishRegistry": "useExternalRegistry",
+                                "publishFeed": "",
+                                "publishPackageMetadata": "true",
+                                "publishEndpoint": ""
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "install jq to parse json",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your commands here\n\nsudo apt-get install jq ",
+                                "workingDirectory": "",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "6c731c3c-3c68-459a-a5c9-bde6e6595b5b",
+                            "version": "3.*",
+                            "name": "deploy contracts to westlake",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your commands here\n\n# Use the environment variables input below to pass secret variables to this script\n\ncat ./build/contracts/Demo2.json\n\n./node_modules/.bin/truffle migrate --network=private --reset",
+                                "workingDirectory": "$(System.DefaultWorkingDirectory)/_drop_build_and_logicapp/drop",
+                                "failOnStderr": "false"
+                            }
+                        },
+                        {
+                            "environment": {},
+                            "taskId": "46e4be58-730b-4389-8a2f-ea10b3e5e815",
+                            "version": "1.*",
+                            "name": "update logic app",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "connectedServiceNameARM": "b0c252ec-7cba-4b63-82d9-a428d8376b0d",
+                                "scriptLocation": "scriptPath",
+                                "scriptPath": "$(System.DefaultWorkingDirectory)/_drop_build_and_logicapp/drop/UpdateLogicApp/update-logic-app.sh",
+                                "inlineScript": "",
+                                "args": "",
+                                "addSpnToEnvironment": "false",
+                                "useGlobalConfig": "false",
+                                "cwd": "$(System.DefaultWorkingDirectory)/_drop_build_and_logicapp/drop/UpdateLogicApp",
+                                "failOnStandardError": "false"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "name": "ReleaseStarted",
+                    "conditionType": 1,
+                    "value": ""
+                }
+            ],
+            "executionPolicy": {
+                "concurrencyCount": 1,
+                "queueDepthCount": 0
+            },
+            "schedules": [],
+            "currentRelease": {
+                "id": 32,
+                "url": "https://vsrm.dev.azure.com/tireilly/ec965f5f-d304-4ac2-8094-3b4d9f46e753/_apis/Release/releases/32",
+                "_links": {}
+            },
+            "retentionPolicy": {
+                "daysToKeep": 30,
+                "releasesToKeep": 3,
+                "retainBuild": true
+            },
+            "processParameters": {},
+            "properties": {},
+            "preDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGates": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "environmentTriggers": [],
+            "badgeUrl": "https://vsrm.dev.azure.com/tireilly/_apis/public/Release/badge/ec965f5f-d304-4ac2-8094-3b4d9f46e753/1/1"
+        }
+    ],
+    "artifacts": [
+        {
+            "sourceId": "ec965f5f-d304-4ac2-8094-3b4d9f46e753:3",
+            "type": "Build",
+            "alias": "_drop_build_and_logicapp",
+            "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/tireilly/_permalink/_build/index?collectionId=e2b091ca-8695-4fff-96d7-596ba08d59f3&projectId=ec965f5f-d304-4ac2-8094-3b4d9f46e753&definitionId=3",
+                    "name": ""
+                },
+                "defaultVersionBranch": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionSpecific": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionTags": {
+                    "id": "",
+                    "name": ""
+                },
+                "defaultVersionType": {
+                    "id": "latestType",
+                    "name": "Latest"
+                },
+                "definition": {
+                    "id": "3",
+                    "name": "blockchain-devops-demo"
+                },
+                "definitions": {
+                    "id": "",
+                    "name": ""
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "project": {
+                    "id": "ec965f5f-d304-4ac2-8094-3b4d9f46e753",
+                    "name": "blockchain-devops-demo"
+                },
+                "repository": {
+                    "id": "",
+                    "name": ""
+                }
+            },
+            "isPrimary": true,
+            "isRetained": false
+        }
+    ],
+    "triggers": [
+        {
+            "artifactAlias": "_drop_build_and_logicapp",
+            "triggerConditions": [
+                {
+                    "sourceBranch": "master",
+                    "tags": [],
+                    "useBuildDefinitionBranch": false,
+                    "createReleaseOnBuildTagging": false
+                }
+            ],
+            "triggerType": 1
+        }
+    ],
+    "releaseNameFormat": "Release-$(rev:r)",
+    "tags": [],
+    "pipelineProcess": {
+        "type": 1
+    },
+    "properties": {
+        "DefinitionCreationSource": {
+            "$type": "System.String",
+            "$value": "Other"
+        }
+    },
+    "id": 1,
+    "name": "New release pipeline",
+    "path": "\\",
+    "projectReference": null,
+    "url": "https://vsrm.dev.azure.com/tireilly/ec965f5f-d304-4ac2-8094-3b4d9f46e753/_apis/Release/definitions/1",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/tireilly/ec965f5f-d304-4ac2-8094-3b4d9f46e753/_apis/Release/definitions/1"
+        },
+        "web": {
+            "href": "https://dev.azure.com/tireilly/ec965f5f-d304-4ac2-8094-3b4d9f46e753/_release?definitionId=1"
+        }
+    }
+}
