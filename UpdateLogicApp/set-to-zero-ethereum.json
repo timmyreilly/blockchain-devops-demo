@@ -1,0 +1,10 @@
+{
+    "resource-group" : "Pensiamo-Westlake3", 
+    "logic-app" : "set-to-zero-ethereum", 
+    "actions" : [
+        {
+            "action": "Execute_smart_contract_function_(all_properties)",
+            "contract" : "Demo2"
+        }
+    ]
+}
