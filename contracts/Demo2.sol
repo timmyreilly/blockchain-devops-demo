@@ -1,7 +1,7 @@
 pragma solidity ^0.4.15; 
 
 contract Demo2 { 
-    uint i = 44; 
+    uint i = 100; 
 
     function addOne() public {
         i = i + 1; 
